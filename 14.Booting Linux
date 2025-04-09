@@ -18,4 +18,4 @@ Introduction to Logs
 
 Linux, much like other operating systems, maintains logs to help administrators understand what is happening on the system. These logs document everything, including users' activities, system errors, and kernel messages. A particularly important time for insightful log messages is during the system boot process, when key system components are loaded and initialized.
 
-
+Linux utilizes various log message levels from emerg (the system is unusable) to debug (debug-level messages). During the boot process, messages from various components of the system like kernel, init, services, etc., are stored. Many Linux distributions use systemd logging system, journalctl, which holds the logs of the boot process.
