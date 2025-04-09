@@ -2,4 +2,6 @@ Booting Linux refers to the process that the Linux operating system undergoes wh
 
 The whole process involves several stages including POST (Power-On Self Test), MBR (Master Boot Record), GRUB (GRand Unified Bootloader), Kernel, Init process, and finally the GUI or command line interface where users interact.
 
+During this process, vital system checks are executed, hardware is detected, appropriate drivers are loaded, filesystems are mounted, necessary system processes are started, and finally, the user is presented with a login prompt.
+
 
