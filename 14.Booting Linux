@@ -14,5 +14,8 @@ GRUB_CMDLINE_LINUX=""
 
 This is a basic introduction to booting Linux. However, the specifics may vary depending on the Linux distribution and the specific configurations of your system.
 
+Introduction to Logs
+
+Linux, much like other operating systems, maintains logs to help administrators understand what is happening on the system. These logs document everything, including users' activities, system errors, and kernel messages. A particularly important time for insightful log messages is during the system boot process, when key system components are loaded and initialized.
 
 
