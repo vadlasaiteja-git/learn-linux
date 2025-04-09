@@ -24,3 +24,6 @@ Viewing boot messages can occur in real-time with the dmesg command. It's used t
 
 dmesg | less
 This command presents the boot logs in a less direct format with the ability to scroll up and down. The kernel ring buffer only has a certain size, so old messages will be discarded after some time.
+
+Boot Loaders
+Boot Loaders play an integral role in booting up any Linux-based system. When the system is switched on, it's the Boot Loader that takes charge and loads the kernel of the OS into the system’s memory. The kernel then initializes the hardware components and loads necessary drivers, after which it starts the scheduler and executes the init process.
